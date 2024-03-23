@@ -12,7 +12,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](.assets/images/Blog-Card.jpg)
+![](./assets/images/Blog-Card.jpg)
 
 ### Links
 
