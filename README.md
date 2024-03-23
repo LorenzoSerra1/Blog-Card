@@ -16,8 +16,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/LorenzoSerra1/Blog-Card)
-- Live Site URL: [Add live site URL here](https://lorenzoserra1.github.io/Blog-Card/)
+- Solution URL: [Solution URL](https://github.com/LorenzoSerra1/Blog-Card)
+- Live Site URL: [Live Site](https://lorenzoserra1.github.io/Blog-Card/)
 
 ## My process
 
