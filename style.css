@@ -1,0 +1,113 @@
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%); 
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+body {
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    max-height: 100vh;
+    font-family: 'Figtree';
+}
+
+.container {
+    background-color: var(--White);
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 10px 10px black;
+    max-width: 320px;
+    cursor: pointer;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.main-img img{
+    display: block;
+    margin: 0 auto;
+    max-width: 320px;
+    max-height: 200px;
+    border-radius: 15px;
+    width: 100%;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.tag {
+    background-color: var(--Yellow);
+    width: 25%;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px 3px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.title {
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+.description{
+    color: var(--Grey);
+    font-size: 16px;
+    line-height: 1.6rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img{
+    margin-right: 20px;
+    height: 40px;
+}
+
+.user-info p{
+    font-weight: 800;
+}
+
+.attribution {
+    margin-top: 5%;
+}
+
+
+/* Mobile Version */
+
+@media only screen and (max-width: 360px) {
+    .title h2{
+        font-size: 20px;
+    }
+}
